@@ -1,0 +1,10 @@
+INCS = \
+	inc/
+
+KIND = program
+SRCS = \
+	src/ParticleSamplerBox.cpp \
+	src/main.cpp \
+	src/particlenode.cpp
+
+USES = lumin_runtime

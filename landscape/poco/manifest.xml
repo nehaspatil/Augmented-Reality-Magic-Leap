@@ -1,0 +1,21 @@
+<manifest
+  xmlns:ml="magicleap"
+  ml:package="com.lumin.poco"
+  ml:version_code="1"
+  ml:version_name="1.0">
+  <application
+    ml:visible_name="L_Poco">
+    <uses-privilege ml:name="Internet"/>
+    <uses-privilege ml:name="LocalAreaNetwork"/>
+    <uses-privilege ml:name="ScreensProvider"/>
+    <component
+      ml:name=".poco.universe"
+      ml:visible_name="L_Poco"
+      ml:binary_name="bin/poco"
+      ml:type="Universe">
+      <icon
+        ml:model_folder=""
+        ml:portal_folder=""/>
+    </component>
+  </application>
+</manifest>

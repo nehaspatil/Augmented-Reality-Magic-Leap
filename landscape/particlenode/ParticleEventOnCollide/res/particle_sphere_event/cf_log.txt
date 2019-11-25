@@ -1,0 +1,1 @@
+Warning: None triangle mesh: Plane001 (file: 'C:\Users\npatil\Desktop\ML\qa_particleNode\qa_particleNode\res\particle_sphere_event\2m_2m_Plane.FBX') [ (line 0)]

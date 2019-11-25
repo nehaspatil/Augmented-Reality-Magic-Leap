@@ -1,0 +1,8 @@
+INCS = inc/
+KIND = program
+SRCS = \
+	src/main.cpp \
+	src/notificationController.cpp \
+	src/qa_notifications.cpp
+
+USES = lumin_runtime

@@ -1,0 +1,19 @@
+INCS = inc/
+KIND = program
+SRCS = \
+	src/main.cpp \
+	src/poco_TestRail.cpp
+
+USES = \
+	lumin_runtime \
+	poco_crypto \
+	poco_encodings \
+	poco_foundation \
+	poco_json \
+	poco_net \
+	poco_netssl \
+	poco_util \
+	poco_xml \
+	poco_zip \
+
+

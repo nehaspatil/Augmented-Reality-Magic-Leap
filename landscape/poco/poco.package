@@ -1,0 +1,3 @@
+REFS = poco
+DATAS = \
+  res/ : res/ \

@@ -1,0 +1,18 @@
+<manifest
+  xmlns:ml="magicleap"
+  ml:package="com.company.particleeventondeath"
+  ml:version_code="1"
+  ml:version_name="1.0">
+  <application
+    ml:visible_name="ParticleEventOnDeath">
+    <component
+      ml:name=".ParticleEventOnDeath.universe"
+      ml:visible_name="ParticleEventOnDeath"
+      ml:binary_name="bin/ParticleEventOnDeath"
+      ml:type="Universe">
+      <icon
+        ml:model_folder=""
+        ml:portal_folder=""/>
+    </component>
+  </application>
+</manifest>
