@@ -1,0 +1,8 @@
+INCS = inc/
+KIND = program
+SRCS = \
+	src/spriteNodeController.cpp \
+	src/main.cpp \
+	src/spriteNodePrism.cpp
+
+USES = lumin_runtime

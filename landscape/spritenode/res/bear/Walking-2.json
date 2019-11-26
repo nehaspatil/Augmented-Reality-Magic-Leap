@@ -1,0 +1,30 @@
+{"frames": [
+
+{
+	"filename": "bear7",
+	"frame": {"x":1,"y":1,"w":932,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":932,"h":580},
+	"sourceSize": {"w":932,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bear8",
+	"frame": {"x":935,"y":1,"w":932,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":932,"h":580},
+	"sourceSize": {"w":932,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Sheet-2.png",
+	"format": "RGBA8888",
+	"size": {"w":1868,"h":582},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ba5567f161db28357d601176a46d1bee:8c925386804b101997e38fd62267b334:5c1322de9152d1e45af4259318754993$"
+}
+}

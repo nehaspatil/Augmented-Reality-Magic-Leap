@@ -1,0 +1,3 @@
+DATAS = "res/" : "res/"
+
+REFS = spritenode
