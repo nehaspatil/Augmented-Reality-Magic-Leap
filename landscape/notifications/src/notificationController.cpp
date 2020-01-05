@@ -1,5 +1,4 @@
 
-
 #include <notificationController.h>
 #include <lumin/Prism.h>
 #include <lumin/event/GestureInputEventData.h>

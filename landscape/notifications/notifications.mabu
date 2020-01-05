@@ -3,6 +3,6 @@ KIND = program
 SRCS = \
 	src/main.cpp \
 	src/notificationController.cpp \
-	src/qa_notifications.cpp
+	src/lnotifications.cpp
 
 USES = lumin_runtime

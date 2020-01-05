@@ -1,52 +1,42 @@
-// %BANNER_BEGIN%
-// ---------------------------------------------------------------------
-// %COPYRIGHT_BEGIN%
-//
-// Copyright (c) 2018 Magic Leap, Inc. All Rights Reserved.
-// Use of this file is governed by the Creator Agreement, located
-// here: https://id.magicleap.com/creator-terms
-//
-// %COPYRIGHT_END%
-// ---------------------------------------------------------------------
-// %BANNER_END%
+
 #include <lumin/LandscapeApp.h>
 #include <lumin/Prism.h>
 #include <lumin/event/ServerEvent.h>
 #include <lumin/notifications/Notification.h>
 /**
- * qa_notifications Landscape Application
+ * notifications Landscape Application
  */
-class qa_notifications : public lumin::LandscapeApp {
+class lnotifications : public lumin::LandscapeApp {
 public:
   /**
    * Constructs the Landscape Application.
    */
-  qa_notifications();
+	lnotifications();
 
   /**
    * Destroys the Landscape Application.
    */
-  virtual ~qa_notifications();
+  virtual ~lnotifications();
 
   /**
    * Disallows the copy constructor.
    */
-  qa_notifications(const qa_notifications&) = delete;
+  lnotifications(const lnotifications&) = delete;
 
   /**
    * Disallows the move constructor.
    */
-  qa_notifications(qa_notifications&&) = delete;
+  lnotifications(lnotifications&&) = delete;
 
   /**
    * Disallows the copy assignment operator.
    */
-  qa_notifications& operator=(const qa_notifications&) = delete;
+  lnotifications& operator=(const lnotifications&) = delete;
 
   /**
    * Disallows the move assignment operator.
    */
-  qa_notifications& operator=(qa_notifications&&) = delete;
+  lnotifications& operator=(lnotifications&&) = delete;
 
 protected:
   /**
