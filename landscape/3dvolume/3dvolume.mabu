@@ -1,0 +1,11 @@
+INCS = \
+	common/ \
+	inc/
+
+KIND = program
+SRCS = \
+	src/3dvolume.cpp \
+	src/L3DImageController.cpp \
+	src/main.cpp
+
+USES = lumin_runtime
